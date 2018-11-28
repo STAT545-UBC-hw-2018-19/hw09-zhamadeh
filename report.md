@@ -9,12 +9,6 @@ output:
 
 
 
-
-
-
-
-
-
 On most *nix systems, the file `/usr/share/dict/words` contains a bunch of words. On my machine, it contains 235886 words.
 
 I computed the length of each word, i.e. the number of characters, and tabulated how many words consist of 1 character, 2 characters, etc.

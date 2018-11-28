@@ -17,7 +17,7 @@ letter_count.png: letter_count.tsv
 histogram.tsv: histogram.r words.txt
 	Rscript $<
 
-letter_count.tsv: letter_count.r words.txt
+letter_count.tsv: letter_count.r words.txt 
 	Rscript $<
 
 words.txt: /usr/share/dict/words

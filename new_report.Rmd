@@ -9,10 +9,11 @@ output:
 
 
 ```{r load-hist-dat, include = FALSE}
-letter_count <- read.delim("letter_count.tsv")
+hist_dat <- read.delim("histogram.tsv")
+letter_counts <- read.delim("letter_count.tsv")
 ```
 
-I computed the letter composition of each word, i.e. the letter frequencies, and plotted the frequency of each letter in their respective order in the alphabet. 
+To follow up on the work on [English word counts](), I computed the letter composition of each word, i.e. the letter frequencies, and plotted the frequency of each letter in their respective order in the alphabet. 
 
 The most frequent letters are: E, A, I, O and oddly enough R
 
