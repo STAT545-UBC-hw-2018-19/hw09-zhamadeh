@@ -11,7 +11,7 @@ For this assignment, we will work with make files and their ability to create pi
 * Updated the Makefile
 	* Use the new .tsv file to create a bar plot of each letter frequency
 	
-* Created [new]() report file 
-	* Available as [html]()
-	* Available as [md]() 
+* Created [new](https://github.com/STAT545-UBC-students/hw09-zhamadeh/blob/master/new_report.Rmd) report file 
+	* Available as [html](https://github.com/STAT545-UBC-students/hw09-zhamadeh/blob/master/new_report.html)
+	* Available as [md](https://github.com/STAT545-UBC-students/hw09-zhamadeh/blob/master/new_report.md) 
 
