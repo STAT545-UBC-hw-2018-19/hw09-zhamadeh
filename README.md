@@ -4,7 +4,7 @@ Homework Assignment #9 : make-activity
 For this assignment, we will work with make files and their ability to create pipelines that interconnect multiple R scripts. This repository was seeded with the following base [pipeline](https://github.com/STAT545-UBC/make-activity) and I made the following additions:
 
 * Created a new R script
-	* Takes in `word.txt` file
+	* Takes in [`word.txt`]("http://svnweb.freebsd.org/base/head/share/dict/web2?view=co") file
 	* Creating table of letter frequency for every word in file
 	* Exporting this data as `letter_count.tsv` 
 		
