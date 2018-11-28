@@ -7,8 +7,17 @@ output:
     keep_md: yes
 ---
 
+```{r}
+
+```
+
+
+
+
+
 ```{r load-hist-dat, include = FALSE}
 hist_dat <- read.delim("histogram.tsv")
+letter_counts <- read.delim("letter_count.tsv")
 ```
 
 On most *nix systems, the file `/usr/share/dict/words` contains a bunch of words. On my machine, it contains `r sum(hist_dat$Freq)` words.
